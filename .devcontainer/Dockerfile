@@ -13,15 +13,15 @@ RUN cd && \
     make -j$(nproc) && \
     make install
 
-# Add pip path to .bashrc
-RUN export PATH="$PATH:/root/.local"
-
-# RUN pip install flake8 
-
 RUN git clone https://github.com/FelixBrgm/.unix.git ~/.unix
 
 RUN cd ~/.unix && \
     chmod 777 ./setup.sh && \
     ./setup.sh
+
+RUN wget https://bootstrap.pypa.io/get-pip.py && \
+    python3.10 get-pip.py
+
+RUN pip install flake8 
 
 CMD ["tail", "-f", "/dev/null"]

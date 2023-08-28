@@ -1,5 +1,5 @@
 {
-	"name": "workshop_python",
+	"name": "42_python_piscine",
 	"dockerFile": "./Dockerfile",
 	"forwardPorts": [],
 	"settings": {
@@ -9,5 +9,5 @@
 		"PKief.material-icon-theme",
 		"ms-python.python"
 	],
-	"workspaceFolder": "/workspaces/workshop_python/source" // change 42-ft_transendence to name of repo when copied
+	"workspaceFolder": "/workspaces/42_python_piscine/source" // change 42-ft_transendence to name of repo when copied
 }

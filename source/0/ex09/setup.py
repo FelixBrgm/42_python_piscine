@@ -6,7 +6,7 @@ setup(
     author="fbruggem",
     author_email="fbruggem@student.42heilbronn.de",
     description="This is a very important description",
-    url="https://github.com/FelixBrgm/workshop_python",
+    url="https://github.com/FelixBrgm/42_python_piscine.git",
     packages=find_packages(),
     classifiers=[
         "Very special",

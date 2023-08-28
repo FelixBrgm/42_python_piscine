@@ -22,6 +22,7 @@ RUN cd ~/.unix && \
 RUN wget https://bootstrap.pypa.io/get-pip.py && \
     python3.10 get-pip.py
 
-RUN pip install flake8 
+RUN pip install flake8
+RUN pip install tqdm
 
 CMD ["tail", "-f", "/dev/null"]

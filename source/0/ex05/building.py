@@ -2,6 +2,9 @@ import sys
 
 
 def main():
+    """
+    Executes the building function an catches and prints AssertationErrors
+    """
     try:
         building()
     except AssertionError as e:

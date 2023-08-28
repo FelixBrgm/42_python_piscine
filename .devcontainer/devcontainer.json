@@ -1,0 +1,12 @@
+{
+	"name": "workshop_python",
+	"dockerFile": "./Dockerfile",
+	"forwardPorts": [],
+	"settings": {
+		"terminal.integrated.shell.linux": "/bin/bash",
+	},
+	"extensions": [
+		"PKief.material-icon-theme"
+	],
+	"workspaceFolder": "/workspaces/workshop_python/source" // change 42-ft_transendence to name of repo when copied
+}

@@ -15,7 +15,7 @@ RUN cd && \
 
 RUN git clone https://github.com/FelixBrgm/.dotfiles.git ~/.unix
 
-RUN cd ~/.unix && \
+RUN cd ~/.dotfiles && \
     chmod 777 ./setup.sh && \
     ./setup.sh
 

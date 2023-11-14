@@ -13,7 +13,7 @@ RUN cd && \
     make -j$(nproc) && \
     make install
 
-RUN git clone https://github.com/FelixBrgm/.dotfiles.git ~/.unix
+RUN git clone https://github.com/FelixBrgm/.dotfiles.git ~/.dotfiles
 
 RUN cd ~/.dotfiles && \
     chmod 777 ./setup.sh && \
